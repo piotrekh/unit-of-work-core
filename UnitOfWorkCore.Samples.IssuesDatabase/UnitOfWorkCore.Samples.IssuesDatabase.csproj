@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Scripts\0001_Issue.sql" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Scripts\0001_Issue.sql" />
+    <EmbeddedResource Include="Scripts\0002_Sample_Issues.sql" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="dbup4-sqlserver" Version="4.0.0-beta0003" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="2.0.0" />
+  </ItemGroup>
+
+</Project>
