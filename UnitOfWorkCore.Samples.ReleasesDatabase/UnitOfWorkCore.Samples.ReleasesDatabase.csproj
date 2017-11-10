@@ -6,6 +6,16 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="Scripts\0001_Release.sql" />
+    <None Remove="Scripts\0002_Sample_Releases.sql" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Scripts\0001_Release.sql" />
+    <EmbeddedResource Include="Scripts\0002_Sample_Releases.sql" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="dbup4-sqlserver" Version="4.0.0-beta0003" />
     <PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="2.0.0" />
   </ItemGroup>
