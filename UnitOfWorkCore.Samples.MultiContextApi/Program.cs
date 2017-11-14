@@ -16,7 +16,6 @@ namespace UnitOfWorkCore.Samples.MultiContextApi
         public static IWebHost BuildWebHost(string[] args)
         {
             var builder = new WebHostBuilder()
-                .UseSetting("detailedErrors", "true").CaptureStartupErrors(true)
                 .UseKestrel()
                 .UseContentRoot(Directory.GetCurrentDirectory())
                 .ConfigureAppConfiguration((hostingContext, config) =>
