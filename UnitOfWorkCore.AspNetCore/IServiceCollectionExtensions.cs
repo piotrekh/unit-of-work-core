@@ -20,6 +20,7 @@ namespace UnitOfWorkCore.AspNetCore
 
             services.AddScoped(typeof(IUnitOfWork<>), typeof(UnitOfWork<>));
             services.AddSingleton(typeof(UnitOfWorkPoolOptions), optionsBuilder.Options);
+            services.AddScoped<IUnitOfWorkPool, UnitOfWorkPool>();
         }
     }
 }
