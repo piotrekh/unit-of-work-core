@@ -15,8 +15,8 @@ This repository contains several C# projects:
 ## Nuget packages
 UnitOfWorkCore component is distributed as two separate NuGet packages
 
-- [_UnitOfWorkCore_](https://www.nuget.org/packages/unitofworkcore/) - for use in projects that don't depend on ASP.NET Core (e.g. services layer in your solution)
-- [_UnitOfWorkCore.AspNetCore_](https://www.nuget.org/packages/unitofworkcore/) - for use in ASP.NET Core projects with REST API
+- [_UnitOfWorkCore_](https://www.nuget.org/packages/UnitOfWorkCore/) - for use in projects that don't depend on ASP.NET Core (e.g. services layer in your solution)
+- [_UnitOfWorkCore.AspNetCore_](https://www.nuget.org/packages/UnitOfWorkCore.AspNetCore/) - for use in ASP.NET Core projects with REST API
 
 To install `UnitOfWorkCore` and `UnitOfWorkCore.AspNetCore` in your project(s), use the Visual Studio's built-in NuGet GUI (_Manage NuGet packages_ option in project's context menu) or run the following commands in Package Manager Console:
 
