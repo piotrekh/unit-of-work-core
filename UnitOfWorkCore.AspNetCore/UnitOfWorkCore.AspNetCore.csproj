@@ -2,6 +2,15 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp2.0</TargetFramework>
+    <PackageId>UnitOfWorkCore.AspNetCore</PackageId>
+    <Authors>Piotr Hechelski</Authors>
+    <Description>UnitOfWorkCore configuration and filters for ASP.NET Core</Description>
+    <Copyright>Copyright 2017 Piotr Hechelski</Copyright>
+    <PackageLicenseUrl>https://github.com/piotrekh/unit-of-work-core/blob/master/LICENSE</PackageLicenseUrl>
+    <PackageProjectUrl>https://github.com/piotrekh/unit-of-work-core</PackageProjectUrl>
+    <PackageTags>uow unitofwork unitofworkcore</PackageTags>
+    <PackageReleaseNotes>v1.0.0</PackageReleaseNotes>
+    <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
   </PropertyGroup>
 
   <ItemGroup>

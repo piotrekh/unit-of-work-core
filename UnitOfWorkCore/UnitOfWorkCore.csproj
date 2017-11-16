@@ -2,6 +2,15 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <PackageId>UnitOfWorkCore</PackageId>
+    <Authors>Piotr Hechelski</Authors>
+    <Description>Unit of Work component that automatically handles transactions (with multiple DbContext support)</Description>
+    <Copyright>Copyright 2017 Piotr Hechelski</Copyright>
+    <PackageLicenseUrl>https://github.com/piotrekh/unit-of-work-core/blob/master/LICENSE</PackageLicenseUrl>
+    <PackageProjectUrl>https://github.com/piotrekh/unit-of-work-core</PackageProjectUrl>
+    <PackageTags>uow unitofwork unitofworkcore</PackageTags>
+    <PackageReleaseNotes>v1.0.0</PackageReleaseNotes>
+    <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
   </PropertyGroup>
 
   <ItemGroup>
